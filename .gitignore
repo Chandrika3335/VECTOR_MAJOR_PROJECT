@@ -1,0 +1,25 @@
+# Ignore all object, binary, and build files
+*.o
+*.out
+*.exe
+*.swp
+*.nfs*
+*.axf
+*.hex
+*.htm
+*.html
+*.plg
+*.lnp
+*.map
+*.sct
+*.tra
+*.d
+*.crf
+*.uvopt
+*.uvproj
+*.bak
+*.lst
+ATM/atmsys
+MCU/*.build_log.htm
+MCU/*.Target*
+
