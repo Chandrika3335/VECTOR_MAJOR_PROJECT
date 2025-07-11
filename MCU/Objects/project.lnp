@@ -1,0 +1,3 @@
+".\Objects\setbit.obj" 
+TO ".\Objects\project" 
+PRINT(".\Listings\project.m51")

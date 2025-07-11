@@ -1,0 +1,40 @@
+A51 MACRO ASSEMBLER  SETBIT                                                               05/24/2025 18:38:59 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\setbit.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE setbit.sam SET(SMALL) DEBUG PRINT(.\Listings\setbit.lst) OBJECT(.\Objec
+                      ts\setbit.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+----                   1     CSEG AT 0
+                       2     
+0000 7F78              3     MOV R7,#0x78    ;8-BIT NUMBER
+0002 7E00              4     MOV R6,#0x00    ;COUNT
+0004 7D08              5     MOV R5,#0x08    ;NO.OF ITERATTIONS
+0006 EF                6     MOV A,R7
+                       7     
+0007                   8     LOOP:
+0007 33                9     RLC A
+0008 5001             10     JNC LABEL
+000A 0E               11     INC R6
+000B DDFA             12     LABEL:DJNZ R5,LOOP
+                      13     
+                      14     END
+A51 MACRO ASSEMBLER  SETBIT                                                               05/24/2025 18:38:59 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+LABEL. . . . . . .  C ADDR   000BH   A   
+LOOP . . . . . . .  C ADDR   0007H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

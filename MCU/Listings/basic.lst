@@ -1,0 +1,33 @@
+A51 MACRO ASSEMBLER  BASIC                                                                05/24/2025 18:23:01 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\basic.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE basic.asm SET(SMALL) DEBUG PRINT(.\Listings\basic.lst) OBJECT(.\Objects
+                      \basic.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+----                   1     CSEG AT 0
+                       2             
+0000 7445              3     MOV A,#45H
+0002 7820              4     MOV R0,#20H
+0004 F6                5     MOV @R0,A
+0005 901234            6     MOV DPTR,#1234H
+0008 8900              7     MOV 00H,R1
+                       8             
+                       9     END
+A51 MACRO ASSEMBLER  BASIC                                                                05/24/2025 18:23:01 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

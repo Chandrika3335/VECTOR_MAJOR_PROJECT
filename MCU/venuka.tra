@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'venuka.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"kpm.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"others_functions.o"'
+### List of Objects: adding '"bank_functions.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "delay.o" "kpm.o" "main.o" "uart.o" "lcd.o" "others_functions.o" "bank_functions.o" --strict --scatter "venuka.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\venuka.map" -o "venuka.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'venuka.axf'
+### ADS-LD Command File: 'venuka.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'venuka.lnp', Handle=0x000002D8
+### Writing '.lnp' file
+### ADS-LD Command file 'venuka.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
